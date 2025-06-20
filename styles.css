@@ -1,0 +1,9 @@
+:root {
+    --cor-fundo: #0f0330; /* Fundo azul claro */
+    --cor-principal: #1e3a8a; /* Azul mais escuro para a caixa principal */
+    --cor-secundaria: #3b82f6; /* Azul médio para botões */
+    --cor-destaque: #ff6b6b; /* Vermelho coral para destaques */
+    --cor-texto: #2d3748; /* Cinza escuro para texto principal */
+    --cor-texto-claro: #f8fafc; /* Branco para texto em fundos escuros */
+    --fonte-principal: 'Nunito', sans-serif;
+}
