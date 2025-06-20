@@ -7,3 +7,23 @@
     --cor-texto-claro: #f8fafc; /* Branco para texto em fundos escuros */
     --fonte-principal: 'Nunito', sans-serif;
 }
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-principal);
+    line-height: 1.6;
+}
+
+.caixa-principal {
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
